@@ -1,0 +1,5 @@
+source leaprc.gaff
+GGC=loadmol2 ../ligand_files/GGC.mol2
+loadamberparams ../ligand_files/GGC.frcmod
+saveoff GGC ../ligand_files/GGC.lib
+quit

@@ -1,0 +1,7 @@
+parm TXS-gerger.prmtop
+trajin Relaxation/TXS-gerger_relaxed.rst7
+trajout TXS-gerger_relaxed.pdb PDB
+
+center :1-789
+image familiar
+go
