@@ -1,0 +1,57 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) CCconfig         4) imkl/2020.1.217    7) libfabric/1.10.1
+  2) gentoo/2020      5) intel/2020.1.217   8) openmpi/4.0.3
+  3) gcccore/.9.3.0   6) ucx/1.8.0          9) StdEnv/2020
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) libfabric/1.10.1     2) openmpi/4.0.3     3) ucx/1.8.0
+
+starting solvent relaxation
+starting 1min
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ending 1min
+starting 2mdheat
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ending 2mdheat
+starting 3md
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ending 3md
+starting 4md'
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ending 4md
+ending solvent relaxation
+starting sidechain relaxation
+starting 5min
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ending 5min
+starting 6md
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ending 6md
+starting 7md
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ending 7md
+ending sidechain relaxation
+starting unrestrained relaxation
+starting 9md
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ending 9md
+Finished system relaxation
+Error: Could not open input file 'Relaxation/to_pd.in'
+Error: Error(s) occurred during execution.
+
+CPPTRAJ: Trajectory Analysis. V4.25.6 OpenMP
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| 1 OpenMP threads available.
+| Date/time: 11/24/23 14:22:41
+| Available memory: 87.540 GB
+
+TIME: Total execution time: 0.0006 seconds.
+
